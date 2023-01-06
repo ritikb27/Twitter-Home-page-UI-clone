@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter Clone</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+     <!-- building sidebars -->
+     <div class="sidebar">
+        <i class="fab fa-twitter"></i>
+        <div class="sidebarOption active"> 
+            <span class="material-icons">home </span>
+            <h2>Home</h2>
+        </div>
+
+        <div class="sidebarOption "> 
+            <span class="material-icons"> search </span>
+            <h2>Explore</h2>
+        </div>
+
+        <div class="sidebarOption "> 
+            <span class="material-icons"> notifications_none </span>
+            <h2>Notifications</h2>
+        </div>
+
+        <div class="sidebarOption "> 
+            <span class="material-icons"> mail_outline </span>
+            <h2>Messages</h2>
+        </div>
+
+        <div class="sidebarOption "> 
+            <span class="material-icons"> bookmark_border </span>
+            <h2>Bookmarks</h2>
+        </div>
+
+        <div class="sidebarOption "> 
+            <span class="material-icons"> list_alt </span>
+            <h2>Lists</h2>
+        </div>
+
+        <div class="sidebarOption "> 
+            <span class="material-icons"> perm_identity </span>
+            <h2>Profile</h2>
+        </div>
+
+        <div class="sidebarOption "> 
+            <span class="material-icons"> more_horiz </span>
+            <h2>More</h2>
+        </div>
+
+        <button class="sidebar_tweet">Tweet</button>
+     </div>
+     <!-- side bar ends -->
+
+     <!-- feed starts -->
+     <div class="feed">
+
+        <div class="feed_header">
+            <h2>Home</h2>
+        </div>
+
+        <!-- tweetbox starts -->
+        <div class="tweetBox">
+            <form >
+                <div class="tweetbox_input">
+                    <img src="https://img.freepik.com/free-vector/mysterious-mafia-man-smoking-cigarette_52683-34828.jpg?t=st=1658839137~exp=1658839737~hmac=17aac1efdd3c20469345ba2494c50f3075850e0716da52c3e4169540abdea7f4&w=740" alt="">
+                    <input type="text" placeholder="What's Happening?">
+
+                </div>
+                <button class="tweetBox_tweetButton">Tweet</button>
+            </form>
+        </div>
+        <!-- tweetbox ends -->
+
+       <!-- post section starts -->
+       <div class="post">
+        <div class="post__avatar">
+          <img src="https://cutewallpaper.org/21/ayanokji-kiyotaka-wallpapers/Ayanokouji-Kiyotaka-Youkoso-Jitsuryoku-Shijou-Shugi-no-.jpg" alt="">
+       </div>
+
+       <div class="post_body">
+         <div class="post_header">
+             <div class="post_headerText">
+                 <h3>Ayonokoji Kiyotaka
+                    <span class="post_headerSpecial">
+                        <span class="material-icons post_badge"> verified</span>@ayonoK
+                    </span>
+                 </h3>
+             </div>
+             <div class="post_headerDescription">
+                <p>Watashinonamaeha Ayonokoji Kiyotakadesu</p>
+             </div> 
+          </div>
+          <img src="https://wallpaperaccess.com/full/2781365.png" alt="" />
+          <div class="post__footer">
+            <span class="material-icons">repeat</span>
+            <span class="material-icons">favorite_border</span>
+            <span class="material-icons">publish</span>
+          </div>
+        </div>
+       </div>
+       <!-- post section ends -->
+
+       <!-- post section starts -->
+       <div class="post">
+        <div class="post__avatar">
+          <img src="https://cutewallpaper.org/21/issei-hyoudou-wallpaper/List-of-Pinterest-hyoudou-issei-wallpaper-pictures-.jpg" alt="">
+       </div>
+
+       <div class="post_body">
+         <div class="post_header">
+             <div class="post_headerText">
+                 <h3>Issei Hyoudou
+                    <span class="post_headerSpecial">
+                        <span class="material-icons post_badge"> verified</span>@hyouI
+                    </span>
+                 </h3>
+             </div>
+             <div class="post_headerDescription">
+                <p>Watashinonamaeha Issei Hyoudoudesu</p>
+             </div> 
+          </div>
+          <img src="https://wallpapercave.com/wp/wp5404319.jpg" alt="" />
+          <div class="post__footer">
+            <span class="material-icons">repeat</span>
+            <span class="material-icons">favorite_border</span>
+            <span class="material-icons">publish</span>
+          </div>
+        </div>
+       </div>
+       <!-- post section ends -->
+
+
+
+     </div>
+     <!-- feed ends -->
+
+            <!-- widgets starts -->
+            <div class="widgets">
+                <div class="widgets__input">
+                    <span class="material-icons widgets__searchIcon">search</span>
+                    <input type="text" placeholder="Search Twitter">
+                </div>
+
+                <div class="widgets_widgetContainer">
+                    <h2>What's happening</h2>
+                    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Sunsets don&#39;t get much better than this one over <a href="https://twitter.com/GrandTetonNPS?ref_src=twsrc%5Etfw">@GrandTetonNPS</a>. <a href="https://twitter.com/hashtag/nature?src=hash&amp;ref_src=twsrc%5Etfw">#nature</a> <a href="https://twitter.com/hashtag/sunset?src=hash&amp;ref_src=twsrc%5Etfw">#sunset</a> <a href="http://t.co/YuKy2rcjyU">pic.twitter.com/YuKy2rcjyU</a></p>&mdash; US Department of the Interior (@Interior) <a href="https://twitter.com/Interior/status/463440424141459456?ref_src=twsrc%5Etfw">May 5, 2014</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+               </div>
+               <!-- widgets ends -->
+</body>
+</html>
